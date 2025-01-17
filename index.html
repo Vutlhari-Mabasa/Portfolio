@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <a href="#" class="logo">Vutlhari King Mabasa</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Skills">Skills</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Projects">Projects</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      <div class="bx bx-moon" id="darkmode"></div>
+    </ul>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="social">
+      <a href="https://github.com/Vutlhari-Mabasa"><i class='bx bxl-github'></i></a>
+      <a href="#" onclick="sendWhatsAppMessage('812631225', 'Hello, Vutlhari I saw your Portfolio and would like to work with you');">
+        <i class='bx bxl-whatsapp'></i>
+      <a href="https://www.linkedin.com/in/vutlhari-king-mabasa-800baa260/"><i class='bx bxl-linkedin'></i></a>
+    </div>
+
+    <div class="home-img">
+      <img src="img/profile.png" alt="">
+    </div>
+
+    <div class="home-text">
+      <span>Hello, I am</span>
+      <h1>Vutlhari King Mabasa</h1>
+      <h2>Software Developer</h2>
+      <p><!-- Info about myself --></p>
+      <a href="#Contact" class="btn">Contact Me</a>
+    </div>
+
+    <div class="scroll-down">
+      <a href="#About">
+        <i class='bx bx-mouse'></i>
+        <span>Scroll Down</span>
+        <i class='bx bxs-down-arrow-alt'></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="About" id="About">
+    <div class="heading">
+      <h2>About</h2>
+      <span>Introduction</span>
+    </div>
+
+    <!-- About Content -->
+    <div class="about-container">
+      <div class="about-img">
+        <img src="img/about.jpg" alt="">
+      </div>
+
+      <div class="about-text">
+        <p><!-- information about myself --></p>
+        <div class="information">
+
+          <!-- Box 1 -->
+          <div class="info-box">
+            <i class='bx bx-user'></i>
+            <span>Vutlhari King Mabasa</span>
+          </div>
+
+          <!-- Box 2 -->
+          <div class="info-box">
+            <i class='bx bx-phone'></i>
+            <span>+27 81 263 1225</span>
+          </div>
+
+          <!-- Box 3 -->
+          <div class="info-box">
+            <i class='bx bx-envelope'></i>
+            <span>mabasaking2@gmail.com</span>
+          </div>
+        </div>
+        <a href="CV/CV.pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Skills-->
+  <section class="Skills" id="Skills">
+    <div class="heading">
+      <h2>Skills</h2>
+      <span>My Skills</span>
+    </div>
+    <!--Skills Content-->
+    <div class="skills-container">
+      <div class="bars">
+
+        <!--Bar 1-->
+        <div class="bars-box">
+          <h3>HTML</h3>
+          <span>94%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar html-bar"></div>
+        </div>
+
+        <!--Bar 2-->
+        <div class="bars-box">
+          <h3>CSS</h3>
+          <span>90%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar css-bar"></div>
+        </div>
+
+        <!--Bar 3-->
+        <div class="bars-box">
+          <h3>C# (C-Sharp)</h3>
+          <span>50%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar c-sharp-bar"></div>
+        </div>
+
+        <!--Bar 4-->
+        <div class="bars-box">
+          <h3>JAVA</h3>
+          <span>70%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar java-bar"></div>
+        </div>
+
+        <!--Bar 5-->
+        <div class="bars-box">
+          <h3>JavaScript</h3>
+          <span>20%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar javascript-bar"></div>
+        </div>
+
+        <!--Bar 6-->
+        <div class="bars-box">
+          <h3>PHP</h3>
+          <span>60%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar php-bar"></div>
+        </div>
+
+        <!--Bar 7-->
+        <div class="bars-box">
+          <h3>MySQL</h3>
+          <span>40%</span>
+          <div class="light-bar"></div>
+          <div class="percent-bar mysql-bar"></div>
+        </div>
+
+      </div>
+      <div class="skills-img">
+        <img src="img/Skills.png" alt="">
+      </div>
+    </div>
+
+
+  </section>
+
+  <section class="Services" id="Services">
+    <div class="heading">
+      <h2>Services</h2>
+      <span>My Services</span>
+    </div>
+
+    <div class="services-content">
+      <!-- Service 1 -->
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web <br>Development</h3>
+        <a href="#">Learn More</a>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="services-box">
+        <i class='bx bx-data'></i>
+        <h3>Database <br>Systems</h3>
+        <a href="#">Learn More</a>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="services-box">
+        <i class='bx bx-brush'></i>
+        <h3>UI/UX <br>Design</h3>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="Projects" class="Projects">
+    <div class="heading">
+      <h2>Projects</h2>
+      <span>My Work</span>
+    </div>
+    <div class="projects-content">
+      <div class="projects-video">
+        <video controls="" height="400" width="500">
+          <source type="video/mp4" src="img/Website.mp4">
+          Your browser does not support the video tag.
+        </video>
+        <video controls="" height="400" width="500">
+          <source type="video/mp4" src="img/Flower.mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="projects-img">
+        <div>
+          <img alt="Project 1" src="img/p1.png">
+        </div>
+        <div>
+          <img alt="Project 2" src="img/p2.png">
+        </div>
+        <div>
+          <img alt="Project 3" src="img/p3.png">
+        </div>
+        <div>
+          <img alt="Project 4" src="img/p4.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section class="Contact" id="Contact">
+  <div class="heading">
+    <h2>Contact</h2>
+    <span>Connect With Me</span>
+  </div>
+  <div class="contact-form">
+    <form action="send_email.php" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+      <input type="submit" value="Send" class="contact-button">
+    </form>
+  </div>
+
+  </section>
+
+  <!--Footer-->
+  <div class="footer">
+    <h2>Vutlhari King Mabasa</h2>
+    <div class="footer-social">
+      <a href="https://www.facebook.com/vutlhari.mabasa.9655/"><i class='bx bxl-facebook'></i></a>
+      <a href="https://www.instagram.com/senji_64?igsh=MXQ1MGhuNno3YXo2Mg=="><i class='bx bxl-instagram'></i></a>
+      <a href="https://x.com/KingMabasa2"><i class='bx bxl-twitter'></i></a>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+   <div class="copyright">
+    <p>&#169; UmbraTech Solutions All Rights Reserved.</p>
+   </div>
+
+
+  <!-- Link to JavaScript -->
+  <script src="main.js"></script>
+</body>
+
+</html>
