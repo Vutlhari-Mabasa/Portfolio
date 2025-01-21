@@ -293,7 +293,7 @@ header.shadow{
 }
 
 .html-bar{
-    width: 94%;
+    width: 100%;
 }
 
 .css-bar{
@@ -317,7 +317,7 @@ header.shadow{
 }
 
 .mysql-bar{
-    width: 40%;
+    width: 50%;
 }
 
 .services-content {
