@@ -320,6 +320,10 @@ header.shadow{
     width: 50%;
 }
 
+.kotlin-bar{
+    width: 30%;
+}
+
 .services-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
